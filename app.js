@@ -49,6 +49,17 @@ external_reference:id
 })
 
 
+
+
+app.post("/resposta",(req,res)=>{
+    console.log(req.query)
+    res.send("OK")
+})
+
+app.get("/teste", (req,res)=>{
+    res.send("teste de up")
+})
+
 const PORT = process.env.PORT|| 8081
 app.listen(PORT,(req,res)=>{
 
