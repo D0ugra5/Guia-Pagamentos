@@ -61,7 +61,7 @@ app.get("/teste", (req,res)=>{
 })
 
 const PORT = process.env.PORT|| 8081
-app.listen(PORT,(req,res)=>{
+app.listen(80,(req,res)=>{
 
 console.log("Servidor Rodando")
 
